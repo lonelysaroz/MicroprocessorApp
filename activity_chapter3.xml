@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_blue_grey_800"
+    tools:context=".Chapter3" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+
+                <Button
+                    android:id="@+id/chapter3_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8086 Architecture" />
+                <Button
+                    android:id="@+id/chapter3_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8086 Addressing Modes" />
+                <Button
+                    android:id="@+id/chapter3_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8086 Instruction Sets" />
+                <Button
+                    android:id="@+id/chapter3_5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8086 Modes of Operation" />
+                <Button
+                    android:id="@+id/chapter3_6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8086 Timing Diagrams" />
+                <Button
+                    android:id="@+id/chapter3_7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8086 ALP Development Tools" />
+                <Button
+                    android:id="@+id/chapter3_8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Types of Assembler" />
+                <Button
+                    android:id="@+id/chapter3_9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8086 Assembler Directives" />
+                <Button
+                    android:id="@+id/chapter3_10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Modular Programming" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
